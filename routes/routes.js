@@ -10,9 +10,7 @@ router.post("/post", async (req, res) => {
     name: req.body.name,
     age: req.body.age,
     studies: req.body.studies,
-
     workexperience: req.body.workexperience,
-    otherstudies: req.body.otherstudies,
   });
 
   try {
