@@ -15,7 +15,7 @@ const dataSchema = new mongoose.Schema({
   },
   nationality: { required: true, type: String },
   address: { required: true, type: String },
-  telnumber: { required: true, type: Number },
+  telnumber: { required: true, type: String },
   email: { required: true, type: String },
   linkedin: { required: true, type: String },
   studies: [
