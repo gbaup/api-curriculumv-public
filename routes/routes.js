@@ -9,7 +9,14 @@ router.post("/post", async (req, res) => {
   const data = new Model({
     name: req.body.name,
     age: req.body.age,
+    birth: req.body.birth,
+    nationality: req.body.nationality,
+    address: req.body.address,
+    telnumber: req.body.telnumber,
+    email: req.body.email,
+    linkedin: req.body.linkedin,
     studies: req.body.studies,
+    languages: req.body.languages,
     workexperience: req.body.workexperience,
   });
 
